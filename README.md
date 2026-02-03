@@ -23,12 +23,10 @@ Predict house price and number of occupants for test/new data and evaluate using
 
 ## Program:
 ```
-name: Tejashree M
-register number: 252225220115
 /*
 Program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor.
-Developed by: 
-RegisterNumber:  
+Developed by: tejashree M
+RegisterNumber: 252225220115 
 */
 ```
 ```
@@ -91,9 +89,11 @@ prediction = model.predict(new_house)
 print("Predicted House Price:", prediction[0][0])
 print("Predicted Number of Occupants:", round(prediction[0][1]))
 
-
+```
 
 ## Output:
 <img width="464" height="73" alt="Screenshot 2026-02-03 131144" src="https://github.com/user-attachments/assets/d4f1f653-3802-4a3e-bc0f-fb29b71a3a81" />
+
+## Result:
 
 Thus the program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor is written and verified using python programming.
